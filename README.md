@@ -29,3 +29,12 @@ Manage a counter with increment, decrement, reset, and step.
 - Returns `value`, `setValue`, and `remove`.
 
 ---
+
+### 5🔹 [useFetch](./src/hooks/useFetch.ts)
+
+Fetch data from any API endpoint with loading and error handling.
+
+- Supports generic type `<T>` to define the shape of returned data.
+- Returns `{ data, isFetch, error }`.
+
+👉 Example: [FetchDataEx](./src/examples/fetchDataEx.tsx)
